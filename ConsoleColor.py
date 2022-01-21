@@ -1,8 +1,3 @@
-#!/usr/local/bin/python3
-
-# TODO: Change functionality to just return a string so you can print it how
-# you want to.
-
 class ConsoleColor:
     OKGREEN = '\033[92m'
     FAILRED = '\033[91m'

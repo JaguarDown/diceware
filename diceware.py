@@ -1,14 +1,10 @@
-#!/usr/local/bin/python3
-# diceware.py - UPDATE THIS DESCRIPTION
-# TODO: add exception handling to opening the text file.
-
 import sys
 import quantumrandom
 import pyinputplus as pyip
 from ConsoleColor import ConsoleColor
 
+# Function to print with no new line
 def print_nnl(input):
-    # Function to print with no new line
     sys.stdout.write(input)
     sys.stdout.flush()
 
